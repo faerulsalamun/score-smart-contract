@@ -1,0 +1,67 @@
+{
+  "proofsEnabled": true,
+  "deploy": {
+    "optimism": "XBettingUC",
+    "base": "XBettingNFTUC"
+  },
+  "isUniversal": true,
+  "createChannel": {
+    "srcChain": "optimism",
+    "srcAddr": "0xf16A9470e099b6F0001da81C600a5272f966e1E8",
+    "dstChain": "base",
+    "dstAddr": "0x56576860fB5F5BD4796970921b63253Bc866808d",
+    "version": "1.0",
+    "ordering": 0,
+    "fees": false
+  },
+  "sendPacket": {
+    "optimism": {
+      "portAddr": "0xf16A9470e099b6F0001da81C600a5272f966e1E8",
+      "channelId": "channel-n",
+      "timeout": 36000
+    },
+    "base": {
+      "portAddr": "0x56576860fB5F5BD4796970921b63253Bc866808d",
+      "channelId": "channel-n",
+      "timeout": 36000
+    }
+  },
+  "sendUniversalPacket": {
+    "optimism": {
+      "portAddr": "0x2aF5bA1d854274bD5DaB744ad1013125AAc71f3D",
+      "channelId": "channel-16",
+      "timeout": 36000
+    },
+    "base": {
+      "portAddr": "0x09B38135867859C159dEbe271034D101d74Cb503",
+      "channelId": "channel-17",
+      "timeout": 36000
+    }
+  },
+  "backup": {
+    "sendPacket": {
+      "optimism": {
+        "portAddr": "0x1234567890abcdef1234567890abcdef12345678",
+        "channelId": "channel-n",
+        "timeout": 36000
+      },
+      "base": {
+        "portAddr": "0x1234567890abcdef1234567890abcdef12345678",
+        "channelId": "channel-n",
+        "timeout": 36000
+      }
+    },
+    "sendUniversalPacket": {
+      "optimism": {
+        "portAddr": "0xeAE1De5A58178c5a1310D6E777BD316EF4C333e9",
+        "channelId": "channel-10",
+        "timeout": 36000
+      },
+      "base": {
+        "portAddr": "0xc93F74fa4015a36C92E4bCa9EAA40301c33cd636",
+        "channelId": "channel-11",
+        "timeout": 36000
+      }
+    }
+  }
+}
