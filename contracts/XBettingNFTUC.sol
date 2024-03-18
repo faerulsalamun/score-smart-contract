@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
 
-import '../base/UniversalChanIbcApp.sol';
+import './base/UniversalChanIbcApp.sol';
 
 contract XBettingNFTUC is ERC721, UniversalChanIbcApp {
     using Counters for Counters.Counter;

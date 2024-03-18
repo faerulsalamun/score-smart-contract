@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.9;
 
-import '../base/UniversalChanIbcApp.sol';
+import './base/UniversalChanIbcApp.sol';
 
 contract XBettingUC is UniversalChanIbcApp  {
 
